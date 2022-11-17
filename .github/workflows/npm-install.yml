@@ -1,0 +1,9 @@
+name: Npm install steps
+on: [push]
+
+jobs:
+  run-npm-install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install npm
+        run: npm install
